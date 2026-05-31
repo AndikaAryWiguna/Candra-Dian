@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 02 Jan 2026 08:39:23 at https://undangandigitalbali.com/tema/6/?untuk=Nama+Tamu +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2t%Pns2u1%s%uN0%I0p7DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://undangandigitalbali.com/tema/6/?untuk=Nama+Tamu -O1 "C:\My Web Sites\Wedding Januari 2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:39:33	Error: 	"Not Found" (404) at link https://fonts.googleapis.com/ (from https://undangandigitalbali.com/tema/6/?untuk=Nama+Tamu)
+08:39:34	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://undangandigitalbali.com/tema/6/?untuk=Nama+Tamu)
+08:39:34	Warning: 	HTML file (27739 bytes) retransferred due to lack of cache: https://undangandigitalbali.com/tema/6/
+08:39:41	Error: 	"Not Found" (404) at link https://undangandigitalbali.com/assets/images/apple-touch-icon.png (from https://undangandigitalbali.com/tema/6/?untuk=Nama+Tamu)
+08:39:52	Error: 	"Not Found" (404) at link https://undangandigitalbali.com/tema/6/assets/img/hero3.jpg (from https://undangandigitalbali.com/tema/6/assets/css/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 29 seconds : 53 links scanned, 67 files written (19197415 bytes overall) [10345558 bytes received at 356743 bytes/sec], 562073 bytes transferred using HTTP compression in 23 files, ratio 24%, 2.4 requests per connection
+(4 errors, 1 warnings, 0 messages)
