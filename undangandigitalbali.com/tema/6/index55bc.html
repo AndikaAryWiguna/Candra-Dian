@@ -45,7 +45,7 @@
 
             if (nama != "" && hadir != "" && ucapan != "") {
                 $.ajax({
-                    url: "save.php",
+                    url: "https://script.google.com/macros/s/AKfycbyQA-3WQMN7Qr5fG-jv4zao72kXeYCqhQkZbrUuN6VwHXYFtWCgCSf6ornUNO0Pl82V/exec",
                     type: "POST",
                     data: {
                         nama: nama,
@@ -154,7 +154,8 @@
                     <p class="paragraph-modal">Kepada</p>
                     <p class="paragraph-yth">Bapak/Ibu/Saudara/i</p>
                     <h2 class="modal-penerima">
-                        Nama Tamu </h2>
+                        <span></span>
+                    </h2>
                     <div class="btn-modal-area">
                         <button type="button" class="btn btn-default btn-modal" id="button-modal"
                             data-dismiss="modal">Buka Undangan</button>
@@ -476,11 +477,11 @@
                             <a class="story-popup" href="assets/img/stories/7.jpg"><img
                                     src="assets/img/stories/7.jpg" alt="story7" /></a>
                         </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="row">
+        </div>
+        <!-- <div class="row">
    <div class="col-md-12 cmb-3">
    <h2 class="heading" data-aos="fade-up">Cerita Kami</h2>
    </div>
@@ -503,7 +504,8 @@
                 <div class="col-md-8 offset-md-2 cmt-2">
                     <div class="ucapan-box" data-aos="zoom-in">
                         <h2 class="heading text-center">Mohon Doa Restu</h2>
-                        <form class="rsvp-form js-form cmt-2" id="rsvp-form" autocomplete="off">
+                        <form class="rsvp-form js-form cmt-2" id="rsvp-form" autocomplete="off" method="POST"
+                            action="https://script.google.com/macros/s/AKfycbyQA-3WQMN7Qr5fG-jv4zao72kXeYCqhQkZbrUuN6VwHXYFtWCgCSf6ornUNO0Pl82V/exec">
                             <div class="d-md-flex justify-content-between">
                                 <div class="col-sm-12">
                                     <div class="rsvp-form-field">
@@ -634,6 +636,20 @@
 
         gtag('config', 'G-F17XMGM8TC');
     </script>
+
+    <!-- Script Send Parameter -->
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+
+        const nama = urlParams.get("n") || "Tamu Undangan";
+
+        const namaContainer = document.querySelector(".modal-penerima span");
+
+        if (namaContainer) {
+            namaContainer.innerText = nama;
+        }
+    </script>
+
     <script src="../../../code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="../../assets/js/smoothscroll.js"></script>
     <script src="../../assets/js/bootstrap.min.js"></script>
@@ -642,7 +658,7 @@
     <script src="../../assets/js/masonry.pkgd.min.js"></script>
     <script src="../../assets/js/slick.min.js"></script>
     <script src="../../assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="../../../unpkg.com/ionicons%405.2.3/dist/ionicons.js"></script>
+    <!-- <script src="../../../unpkg.com/ionicons%405.2.3/dist/ionicons.js"></script> -->
     <script src="../../../unpkg.com/aos%402.3.1/dist/aos.js"></script>
     <script src="assets/js/script.js"></script>
 
